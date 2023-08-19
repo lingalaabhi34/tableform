@@ -1,0 +1,103 @@
+.nav{
+    background-color: black;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+  
+    position: sticky;
+    z-index: 1;
+}
+.head:hover{
+   color: blue;
+}
+.main{
+    
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+.head{
+    display: inline-block;
+    width: 60%;
+    padding-left: 30px;
+    
+}
+.head1{
+    display: inline-block;
+   
+}
+.nav>div>a{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px; 
+    padding-inline: 30px;
+  }
+#home,#register{
+    color: white;
+    text-decoration: none;
+}
+table,tr,td,th{
+   
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+    padding: 10px;
+}
+table{
+    width:100%;
+    
+    }
+td{
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: vw;
+}
+
+.container h2 {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="date"],
+.form-group input[type="number"] {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #2f2f33;
+}
